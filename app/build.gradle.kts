@@ -58,4 +58,6 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-database-ktx")
+    implementation ("androidx.recyclerview:recyclerview:1.3.2") // O la versión más reciente
+    implementation ("com.google.android.material:material:1.12.0") // O la versión más reciente
 }

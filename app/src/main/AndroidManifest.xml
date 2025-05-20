@@ -42,14 +42,22 @@
         <activity
             android:name=".RegisterAdminActivity"
             android:exported="false" />
-        <!--
         <activity
             android:name=".MainUserActivity"
             android:exported="false" />
         <activity
             android:name=".MainAdminActivity"
             android:exported="false" />
-        -->
+        <activity
+            android:name=".UserListActivity"
+            android:exported="false"
+            android:label="Gestionar Usuarios"
+            android:parentActivityName=".MainAdminActivity"> <!-- Para el botón 'up' en la Toolbar -->
+        <!-- Meta-data para asegurar que el 'up' button funcione correctamente en versiones antiguas -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainAdminActivity" />
+    </activity>
 
     </application>
 
