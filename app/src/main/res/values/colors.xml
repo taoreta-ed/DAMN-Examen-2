@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores primarios de la aplicación (ejemplos) -->
+    <color name="colorPrimary">#6200EE</color> <!-- Un morado típico de Material Design -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Una variante más oscura del primario -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Color para texto/iconos sobre el color primario (blanco) -->
+
+    <!-- Colores secundarios de la aplicación (ejemplos) -->
+    <color name="colorSecondary">#03DAC6</color> <!-- Un teal típico de Material Design -->
+    <color name="colorSecondaryVariant">#018786</color> <!-- Una variante más oscura del secundario -->
+    <color name="colorOnSecondary">#000000</color> <!-- Color para texto/iconos sobre el color secundario (negro) -->
+
+    <!-- Otros colores comunes -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FF888888</color>
+
+    <!-- Puedes agregar más colores personalizados aquí -->
+    <!-- <color name="mi_color_personalizado">#FF5722</color> -->
 </resources>

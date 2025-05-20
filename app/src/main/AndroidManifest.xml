@@ -12,15 +12,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DAMNExamen2"
         tools:targetApi="31">
+
+        <!-- Splash Screen / Punto de Entrada Principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Pantalla de Inicio de Sesión -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <!-- android:exported puede ser true si planeas que otras apps la lancen directamente,
+             pero generalmente para login es false si solo se accede desde tu app. -->
+
+        <!-- Pantalla de Registro de Usuario Normal -->
+        <activity
+            android:name=".RegisterUserActivity"
+            android:exported="false" />
+        <!-- exported="false" es apropiado ya que solo se accede desde tu app (desde LoginActivity) -->
+
+        <!-- Aquí también añadirías RegisterAdminActivity, MainUserActivity, MainAdminActivity, etc.,
+             a medida que las vayas creando -->
+
+        <activity
+            android:name=".RegisterAdminActivity"
+            android:exported="false" />
+        <!--
+        <activity
+            android:name=".MainUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainAdminActivity"
+            android:exported="false" />
+        -->
+
     </application>
 
 </manifest>
